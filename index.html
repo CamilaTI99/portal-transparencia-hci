@@ -1,75 +1,88 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Portal de Transparência | AISI" />
   <title>Portal de Transparência | AISI</title>
-  <link rel="stylesheet" href="/assets/styles.modern.css" />
-  <!-- <link rel="stylesheet" href="/assets/styles.css" /> -->
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
   <header class="header">
     <div class="brandbar">
-      <div>
-        <div class="brand">AISI / HCI</div>
-        <div class="subtitle">Portal institucional e de transparência</div>
+      <div class="inner flex items-center gap-4 mb-5 mt-3">
+        <!-- <div class="brand">AISI / HCI</div> -->
+        <img src="/assets/img/Logo AISI.jpg" alt="AISI / HCI" class="h-24" />
+        <div class="text-3xl ml-10">PORTAL INSTITUCIONAL E DE TRANSPARÊNCIA</div>
       </div>
-      <div class="badge">Site estático</div>
     </div>
-    <nav class="nav">
+    <nav class="nav justify-center gap-12 text-md ">
       <a href="/index.html" aria-current="page">Portal de Transparência</a>
-      <a href="/a-aisi/index.html">A AISI</a>
+      <a href="/a-aisi/aisi.html">A AISI</a>
       <a href="/governanca/diretoria-conselho.html">Governança</a>
-      <a href="/pessoas/index.html">Gestão de Pessoas</a>
-      <a href="/receitas/index.html">Receitas</a>
-      <a href="/contabilidade/index.html">Contabilidade</a>
-      <a href="/compras/index.html">Compras</a>
+      <a href="/pessoas/pessoas.html">Gestão de Pessoas</a>
+      <a href="/receitas/receitas.html">Receitas</a>
+      <a href="/contabilidade/contabilidade.html">Contabilidade</a>
+      <a href="/compras/compras.html">Compras</a>
     </nav>
   </header>
 
   <main class="container">
     <h1>Portal de Transparência</h1>
-    
-<section class="card">
-  <p>O Portal de Transparência AISI/HCI reúne informações institucionais, financeiras e de gestão, permitindo que cidadãos, usuários e parceiros acompanhem a aplicação de recursos, a prestação de contas e os principais indicadores da entidade filantrópica e do hospital.</p>
-</section>
 
-<section class="grid" style="margin-top:14px">
-  <a class="tile" href="/governanca/diretoria-conselho.html">
-    <h3>Governança</h3><p>Diretoria, Conselho Fiscal, associados, estatuto, atas e conselhos externos.</p>
-  </a>
-  <a class="tile" href="/pessoas/index.html">
-    <h3>Gestão de Pessoas</h3><p>Políticas e informações públicas relacionadas ao quadro de pessoal e estágios.</p>
-  </a>
-  <a class="tile" href="/receitas/index.html">
-    <h3>Receitas</h3><p>Receitas públicas e privadas, com links de referência externos.</p>
-  </a>
-  <a class="tile" href="/contabilidade/index.html">
-    <h3>Contabilidade e Relatórios</h3><p>Demonstrações e relatórios anuais, incluindo auditoria independente.</p>
-  </a>
-  <a class="tile" href="/compras/index.html">
-    <h3>Licitações e Compras</h3><p>Política de compras e justificativa de uso de marketplace eletrônico (Bionexo).</p>
-  </a>
-  <a class="tile" href="/a-aisi/index.html">
-    <h3>A AISI</h3><p>Apresentação institucional e objetivo da entidade mantenedora.</p>
-  </a>
-</section>
+    <section class="card">
+      <p>O Portal de Transparência AISI/HCI reúne informações institucionais, financeiras e de gestão, permitindo que
+        cidadãos, usuários e parceiros acompanhem a aplicação de recursos, a prestação de contas e os principais
+        indicadores da entidade filantrópica e do hospital.</p>
+    </section>
 
-<section class="card" style="margin-top:14px">
-  <h2>Publicação de documentos</h2>
-  <p class="small">Este site foi desenhado para ser 100% estático. Documentos (PDF) ficam em <strong>/docs</strong> e listas (membros, atas, relatórios) em <strong>/data</strong>.</p>
-</section>
+    <section class="grid" style="margin-top:14px">
+      <a class="tile" href="/governanca/diretoria-conselho.html">
+        <h3>Governança</h3>
+        <p>Diretoria, Conselho Fiscal, associados, estatuto, atas e conselhos externos.</p>
+      </a>
+      <a class="tile" href="/pessoas/pessoas.html">
+        <h3>Gestão de Pessoas</h3>
+        <p>Políticas e informações públicas relacionadas ao quadro de pessoal e estágios.</p>
+      </a>
+      <a class="tile" href="/receitas/receitas.html">
+        <h3>Receitas</h3>
+        <p>Receitas públicas e privadas, com links de referência externos.</p>
+      </a>
+      <a class="tile" href="/contabilidade/contabilidade.html">
+        <h3>Contabilidade e Relatórios</h3>
+        <p>Demonstrações e relatórios anuais, incluindo auditoria independente.</p>
+      </a>
+      <a class="tile" href="/compras/compras.html">
+        <h3>Licitações e Compras</h3>
+        <p>Política de compras e justificativa de uso de marketplace eletrônico (Bionexo).</p>
+      </a>
+      <a class="tile" href="/a-aisi/aisi.html">
+        <h3>A AISI</h3>
+        <p>Apresentação institucional e objetivo da entidade mantenedora.</p>
+      </a>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>Publicação de documentos</h2>
+      <p class="small">Este site foi desenhado para ser 100% estático. Documentos (PDF) ficam em <strong>/docs</strong>
+        e listas (membros, atas, relatórios) em <strong>/data</strong>.</p>
+    </section>
 
   </main>
 
   <footer class="footer">
     <div class="inner">
       <div>AISI / Hospital de Clínicas de Itajubá — Portal de Transparência</div>
-      <div class="small">Atualize documentos e listas via pasta <strong>/docs</strong> e arquivos <strong>/data</strong>.</div>
+      <div class="small">Atualize documentos e listas via pasta <strong>/docs</strong> e arquivos
+        <strong>/data</strong>.</div>
     </div>
   </footer>
 
   <script src="/assets/app.js"></script>
 </body>
+
 </html>

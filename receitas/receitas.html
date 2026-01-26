@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Receitas | AISI" />
+  <title>Receitas | AISI</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brandbar">
+      <div class="inner flex items-center gap-4 mb-5 mt-3">
+        <!-- <div class="brand">AISI / HCI</div> -->
+        <img src="/assets/img/Logo AISI.jpg" alt="AISI / HCI" class="h-24" />
+        <div class="text-3xl ml-10">PORTAL INSTITUCIONAL E DE TRANSPARÊNCIA</div>
+      </div>
+    </div>
+    <nav class="nav justify-center gap-12 text-md ">
+      <a href="/index.html">Portal de Transparência</a>
+      <a href="/a-aisi/aisi.html">A AISI</a>
+      <a href="/governanca/diretoria-conselho.html">Governança</a>
+      <a href="/pessoas/pessoas.html">Gestão de Pessoas</a>
+      <a href="/receitas/receitas.html" aria-current="page">Receitas</a>
+      <a href="/contabilidade/contabilidade.html">Contabilidade</a>
+      <a href="/compras/compras.html">Compras</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Receitas Públicas e Privadas</h1>
+    
+<section class="card">
+  <p>As receitas da AISI/HCI são compostas por recursos públicos do SUS (produção assistencial e incentivos), convênios e emendas parlamentares destinados ao HCI. A transparência desses repasses pode ser consultada também nos portais do gestor municipal e dos consórcios de saúde. Todos os valores são integralmente reinvestidos na manutenção e ampliação das atividades assistenciais e de ensino, sem distribuição de lucros.</p>
+</section>
+
+    <section class="card">
+      <h2>Conteúdo previsto</h2>
+      <ul class="list">
+        <li>Gráfico geral comparativo com os valores de receita pública e privada por ano.</li><li>Links externos para o portal da Prefeitura (https://imprensaoficialmunicipal.com.br/itajuba) e CISMAS (https://www.cismas.mg.gov.br/index.php/sobre) .</li>
+      </ul>
+    </section>
+    
+<section class="card" style="margin-top:14px">
+  <h2>Série histórica (publicação)</h2>
+  <p class="small">Preencha os valores em <strong>/data/receitas.json</strong>. Caso prefira, você pode manter apenas links externos.</p>
+  <div data-page="receitas"></div>
+  <p style="margin-top:10px">
+    <a href="https://imprensaoficial.itajuba.mg.gov.br/portal" target="_blank" rel="noopener">Portal da Prefeitura</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.cismas.mg.gov.br/index.php/sobre" target="_blank" rel="noopener">CISMAS</a>
+  </p>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div>AISI / Hospital de Clínicas de Itajubá — Portal de Transparência</div>
+      <div class="small">Atualize documentos e listas via pasta <strong>/docs</strong> e arquivos <strong>/data</strong>.</div>
+    </div>
+  </footer>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

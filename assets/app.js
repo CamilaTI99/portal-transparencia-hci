@@ -6,7 +6,7 @@ async function loadJSON(path) {
 
 function escapeHTML(str) {
   return String(str ?? "").replace(/[&<>"']/g, (m) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#039;"
+    "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"
   }[m]));
 }
 
@@ -16,12 +16,13 @@ function renderTable(el, columns, rows) {
     return;
   }
   const thead = `<thead><tr>${columns.map(c => `<th>${escapeHTML(c.label)}</th>`).join("")}</tr></thead>`;
-  const tbody = `<tbody>${rows.map(r => `<tr>${columns.map(c => `<td>${c.render(r)}</td>`).join("")}</tr>`).join("")
-    }</tbody>`;
+  const tbody = `<tbody>${
+    rows.map(r => `<tr>${columns.map(c => `<td>${c.render(r)}</td>`).join("")}</tr>`).join("")
+  }</tbody>`;
   el.innerHTML = `<table class="table">${thead}${tbody}</table>`;
 }
 
-function renderDocLink(url, label = "PDF") {
+function renderDocLink(url, label="PDF") {
   if (!url) return "-";
   const safeUrl = escapeHTML(url);
   return `<a href="${safeUrl}" target="_blank" rel="noopener">${escapeHTML(label)}</a>`;
