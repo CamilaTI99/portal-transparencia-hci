@@ -1,0 +1,8 @@
+{
+  "itens": [],
+  "schema": {
+    "ano": "YYYY",
+    "tipo": "Auditoria/Relatório de gestão/etc.",
+    "pdf_url": "string"
+  }
+}

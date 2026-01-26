@@ -1,0 +1,9 @@
+{
+  "itens": [],
+  "schema": {
+    "ano": "YYYY",
+    "publica": "string/number",
+    "privada": "string/number",
+    "obs": "string"
+  }
+}

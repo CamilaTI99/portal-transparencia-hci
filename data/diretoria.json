@@ -1,0 +1,11 @@
+{
+  "itens": [],
+  "schema": {
+    "nome": "string",
+    "cargo": "string",
+    "mandato": "string",
+    "minicv": "string",
+    "documento_url": "string",
+    "documento_label": "string"
+  }
+}

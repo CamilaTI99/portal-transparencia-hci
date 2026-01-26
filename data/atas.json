@@ -1,0 +1,8 @@
+{
+  "itens": [],
+  "schema": {
+    "ano": "YYYY",
+    "descricao": "string",
+    "pdf_url": "string"
+  }
+}
