@@ -248,3 +248,11 @@ p {
 .footer-dados {
   color: #ffffff;
 }
+
+.pagina-titulo {
+  color: #25711b;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
