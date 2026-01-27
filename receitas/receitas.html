@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +9,9 @@
   <link rel="icon" href="/assets/img/Logo-AISI.ico" type="image/x-icon">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="receitas.css">
 </head>
+
 <body>
   <header class="header">
     <div class="brandbar">
@@ -30,29 +33,36 @@
   </header>
 
   <main class="container">
-    <h1>Receitas Públicas e Privadas</h1>
-    
-<section class="card">
-  <p>As receitas da AISI/HCI são compostas por recursos públicos do SUS (produção assistencial e incentivos), convênios e emendas parlamentares destinados ao HCI. A transparência desses repasses pode ser consultada também nos portais do gestor municipal e dos consórcios de saúde. Todos os valores são integralmente reinvestidos na manutenção e ampliação das atividades assistenciais e de ensino, sem distribuição de lucros.</p>
-</section>
+    <h1 class="pagina-titulo">Receitas Públicas e Privadas</h1>
+
+    <section class="card">
+      <p>As receitas da AISI/HCI são compostas por recursos públicos do SUS (produção assistencial e incentivos),
+        convênios e emendas parlamentares destinados ao HCI. A transparência desses repasses pode ser consultada também
+        nos portais do gestor municipal e dos consórcios de saúde. Todos os valores são integralmente reinvestidos na
+        manutenção e ampliação das atividades assistenciais e de ensino, sem distribuição de lucros.</p>
+    </section>
 
     <section class="card">
       <h2>Conteúdo previsto</h2>
       <ul class="list">
-        <li>Gráfico geral comparativo com os valores de receita pública e privada por ano.</li><li>Links externos para o portal da Prefeitura (https://imprensaoficialmunicipal.com.br/itajuba) e CISMAS (https://www.cismas.mg.gov.br/index.php/sobre) .</li>
+        <li>Gráfico geral comparativo com os valores de receita pública e privada por ano.</li>
+        <li>Links externos para o portal da Prefeitura (https://imprensaoficialmunicipal.com.br/itajuba) e CISMAS
+          (https://www.cismas.mg.gov.br/index.php/sobre) .</li>
       </ul>
     </section>
-    
-<section class="card" style="margin-top:14px">
-  <h2>Série histórica (publicação)</h2>
-  <p class="small">Preencha os valores em <strong>/data/receitas.json</strong>. Caso prefira, você pode manter apenas links externos.</p>
-  <div data-page="receitas"></div>
-  <p style="margin-top:10px">
-    <a href="https://imprensaoficial.itajuba.mg.gov.br/portal" target="_blank" rel="noopener">Portal da Prefeitura</a>
-    &nbsp;|&nbsp;
-    <a href="https://www.cismas.mg.gov.br/index.php/sobre" target="_blank" rel="noopener">CISMAS</a>
-  </p>
-</section>
+
+    <section class="card" style="margin-top:14px">
+      <h2>Série histórica (publicação)</h2>
+      <p class="small">Preencha os valores em <strong>/data/receitas.json</strong>. Caso prefira, você pode manter
+        apenas links externos.</p>
+      <div data-page="receitas"></div>
+      <p style="margin-top:10px">
+        <a href="https://imprensaoficial.itajuba.mg.gov.br/portal" target="_blank" rel="noopener">Portal da
+          Prefeitura</a>
+        &nbsp;|&nbsp;
+        <a href="https://www.cismas.mg.gov.br/index.php/sobre" target="_blank" rel="noopener">CISMAS</a>
+      </p>
+    </section>
 
   </main>
 
@@ -63,10 +73,12 @@
     </div>
     <div class="inner">
       <div class="footer-end">Rua Cândida Gonçalves Bustamante, 17 <br> Morro Chic | Itajubá – MG | CEP 37500-100 </div>
-      <div class="footer-dados">CNPJ: 21.040.696/0001-50 - Isento de Inscrição Estadual <br> <i class="bi bi-telephone-inbound-fill"></i> (35) 3629-7602</div>
+      <div class="footer-dados">CNPJ: 21.040.696/0001-50 - Isento de Inscrição Estadual <br> <i
+          class="bi bi-telephone-inbound-fill"></i> (35) 3629-7602</div>
     </div>
   </footer>
 
   <script src="/assets/app.js"></script>
 </body>
+
 </html>

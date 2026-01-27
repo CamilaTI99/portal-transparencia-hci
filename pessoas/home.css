@@ -18,15 +18,15 @@
 }
 
 .link-pdf {
-    font-weight: bold;
     color: #25711b;
+    font-weight: bold;
+    margin-top: 25px;
     text-decoration: none;
 }
 
 .link-pdf :hover {
     color: #104e08;
     text-decoration: none;
-    font-size: 1.01rem;
 }
 
 .curriculo {
@@ -38,12 +38,15 @@
 
 .curriculo:hover {
     color: #104e08;
-    font-size: 1.01rem;
 }
 
 .dt-referencia {
     font-size: 0.9rem;
     font-style: italic;
     color: #555555;
+    margin-top: 12px;
+}
+
+.tabela-estagios {
     margin-top: 20px;
 }
