@@ -195,19 +195,41 @@ p {
 }
 
 .footer {
+  background-color: #25711b;
   border-top: 1px solid var(--border);
-  padding: 18px 20px;
-  color: var(--muted);
+  color: #ffffff;
   font-size: 13px;
+  padding: 30px 20px;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 40px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 8px;
 }
 
 .footer .inner {
-  max-width: var(--maxw);
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
   gap: 8px 18px;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: var(--maxw);
+  padding-top: 20px;
 }
 
 .badge {
@@ -217,4 +239,12 @@ p {
   border: 1px solid var(--border);
   border-radius: 999px;
   color: var(--muted);
+}
+
+.footer-end {
+  color: #ffffff;
+}
+
+.footer-dados {
+  color: #ffffff;
 }
