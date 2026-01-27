@@ -89,9 +89,10 @@ async function initEstagios() {
   if (!target) return;
   const data = await loadJSON("/data/estagios.json");
   renderTable(target, [
-    { label: "Programa/Área", render: r => escapeHTML(r.programa) },
+    { label: "Área", render: r => escapeHTML(r.area) },
     { label: "Instituição de origem", render: r => escapeHTML(r.instituicao) },
-    { label: "Tipo de vínculo", render: r => escapeHTML(r.vinculo) }
+    { label: "Tipo de vínculo", render: r => escapeHTML(r.vinculo) },
+    { label: "Alunos por Ano", render: r => escapeHTML(r.estagAno) }
   ], data.itens);
 }
 
