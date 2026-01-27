@@ -35,7 +35,15 @@
     text-decoration: none;
     margin-top: 8px;
 }
+
 .curriculo:hover {
     color: #104e08;
     font-size: 1.01rem;
+}
+
+.dt-referencia {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555555;
+    margin-top: 20px;
 }
