@@ -17,3 +17,11 @@ h2{
     margin-top: 0;
     color: #25711b;
 }
+
+.card p{
+    margin: 20px 0;
+}
+
+.card a {
+    display: block;
+}
