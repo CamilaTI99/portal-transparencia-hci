@@ -19,9 +19,15 @@
 
 .link-pdf {
     color: #25711b;
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 25px;
     text-decoration: none;
+}
+
+.doc-icon {
+    margin-right: 6px;
+    font-size: 1rem;
+    vertical-align: middle;
 }
 
 .link-pdf :hover {
@@ -30,7 +36,7 @@
 }
 
 .curriculo {
-    font-weight: bold;
+    font-weight: 500;
     color: #25711b;
     text-decoration: none;
     margin-top: 8px;

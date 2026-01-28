@@ -1,5 +1,22 @@
 {
-  "itens": [],
+  "itens": [{
+    "ano": "2024",
+    "publica": "143.278.025",
+    "privada": "30.320.648",
+    "obs": "---"
+  },
+  {
+    "ano": "2023",
+    "publica": " 81.877.394",
+    "privada": " 27.383.466",
+    "obs": "---"
+  },
+  {
+    "ano": "2022",
+    "publica": "80.774.670",
+    "privada": "26.287.498",
+    "obs": "---"
+  }],
   "schema": {
     "ano": "YYYY",
     "publica": "string/number",

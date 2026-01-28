@@ -16,3 +16,14 @@
     font-size: 1.5rem;
     margin-bottom: 12px;
 }
+
+.grafico-receitas {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #25711ba8 1px solid;
+    border-radius: 8px;
+}
