@@ -80,7 +80,7 @@ async function initReceitas() {
     { label: "Ano", render: r => escapeHTML(r.ano) },
     { label: "Receita pública (R$)", render: r => escapeHTML(r.publica) },
     { label: "Receita privada (R$)", render: r => escapeHTML(r.privada) },
-    { label: "Observações", render: r => escapeHTML(r.obs) }
+    // { label: "Observações", render: r => escapeHTML(r.obs) }
   ], data.itens);
 }
 
@@ -91,7 +91,7 @@ async function initEstagios() {
   renderTable(target, [
     { label: "Área", render: r => escapeHTML(r.area) },
     { label: "Instituição de origem", render: r => escapeHTML(r.instituicao) },
-    { label: "Tipo de vínculo", render: r => escapeHTML(r.vinculo) },
+    // { label: "Tipo de vínculo", render: r => escapeHTML(r.vinculo) },
     { label: "Alunos por Ano", render: r => escapeHTML(r.estagAno) }
   ], data.itens);
 }
