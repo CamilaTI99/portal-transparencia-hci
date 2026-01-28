@@ -5,23 +5,40 @@
     margin: 20px 0;
 }
 
-.card p{
+.card p {
     text-align: justify;
 }
 
-section.texto{
+section.texto {
     text-align: justify;
 }
 
-h2{
+h2 {
     margin-top: 0;
     color: #25711b;
 }
 
-.card p{
+.card p {
     margin: 20px 0;
 }
 
 .card a {
     display: block;
+}
+
+li {
+    list-style: disc;
+    
+    margin: 10px 0;
+    margin-left: 40px;
+}
+
+li a{
+    font-size: smaller;
+    color: #25711b;
+    
+}
+
+ul li::marker {
+    color: #25711b;
 }
