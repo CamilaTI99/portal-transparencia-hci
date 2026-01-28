@@ -27,3 +27,13 @@
     border: #25711ba8 1px solid;
     border-radius: 8px;
 }
+
+.grafico-bi {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin-top: 20px;
+    display: block;
+    border: #25711ba8 1px solid;
+    border-radius: 8px;
+}
