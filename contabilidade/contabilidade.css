@@ -17,43 +17,28 @@
     margin-bottom: 12px;
 }
 
-
 .doc-icon {
     margin-right: 6px;
     font-size: 1rem;
     vertical-align: middle;
 }
 
+.doc-list {
+    list-style-type: none;
+    padding-left: 0;
+
+    margin-top: 30px;
+}
+
 .link-pdf {
+    font-size: 16px;
     color: #25711b;
-    font-weight: 500;
-    margin-top: 25px;
+    font-weight: 400;
+    margin-top: 10px;
     text-decoration: none;
 }
 
 .link-pdf:hover {
     color: #104e08;
     text-decoration: none;
-}
-
-.curriculo {
-    font-weight: 500;
-    color: #25711b;
-    text-decoration: none;
-    margin-top: 8px;
-}
-
-.curriculo:hover {
-    color: #104e08;
-}
-
-.dt-referencia {
-    font-size: 0.9rem;
-    font-style: italic;
-    color: #555555;
-    margin-top: 12px;
-}
-
-.tabela-estagios {
-    margin-top: 20px;
 }

@@ -96,8 +96,19 @@ async function initEstagios() {
   ], data.itens);
 }
 
+async function initAuditoria() {
+  const target = document.querySelector("[data-page='auditoria']");
+  if (!target) return;
+  const data = await loadJSON("/data/auditoria.json");
+  renderTable(target, [
+    { label: "Título", render: r => escapeHTML(r.titulo) },
+    { label: "Arquivo", render: r => renderDocLink(r.arquivo, "Ver PDF") }
+  ], data.itens);
+}
+
+
 async function init() {
-  const fns = [initDiretoria, initAssociados, initAtas, initRelatorios, initReceitas, initEstagios];
+  const fns = [initDiretoria, initAssociados, initAtas, initRelatorios, initReceitas, initEstagios, initAuditoria];
   for (const fn of fns) {
     try { await fn(); } catch (e) { console.error(e); }
   }
