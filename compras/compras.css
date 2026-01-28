@@ -1,0 +1,27 @@
+.card {
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.18);
+    border: none;
+    padding: 20px 35px;
+    margin: 20px 0;
+}
+
+.card p {
+    text-align: justify;
+}
+
+section.texto {
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 0;
+    color: #25711b;
+}
+
+.card p {
+    margin: 20px 0;
+}
+
+.card a {
+    display: block;
+}
