@@ -6,6 +6,17 @@
     margin-bottom: 20px;
 }
 
+.card {
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.18);
+    border: none;
+    padding: 20px 35px;
+    margin: 20px 0;
+}
+
+.card p {
+    text-align: justify;
+}
+
 .grid-home {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -56,3 +67,4 @@
     margin: 0;
     flex: 1;
 }
+

@@ -109,7 +109,7 @@ h1 {
 
 h2 {
   font-size: 18px;
-  margin: 22px 0 10px 0
+  /* margin: 10px 0 10px 0 */
 }
 
 p {
@@ -255,4 +255,49 @@ p {
   font-weight: 600;
   margin-bottom: 8px;
   margin-top: 0px;
+}
+
+
+p{
+  text-align: justify;
+}
+
+
+
+.menu-item {
+  position: relative;
+  display: flex;
+}
+
+.menu-item > a {
+  cursor: pointer;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-item:hover .submenu {
+  display: block;
 }
