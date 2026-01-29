@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ouvidoria | AISI" />
+    <title>Ouvidoria | AISI</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="icon" href="/assets/img/Logo-AISI.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="stylesheet" href="ouvidoria.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="brandbar">
+            <div class="inner flex items-center gap-4 mb-5 mt-3">
+                <img src="/assets/img/Logo AISI.jpg" alt="AISI / HCI" class="h-24" />
+                <div class="text-3xl ml-10">PORTAL INSTITUCIONAL E DE TRANSPARÊNCIA</div>
+            </div>
+        </div>
+        <nav class="nav justify-center gap-19 text-md ">
+            <a href="/index.html">Portal de Transparência</a>
+            <a href="/a-aisi/aisi.html">A AISI</a>
+            <a href="/pessoas/pessoas.html">Gestão de Pessoas</a>
+            <a href="/receitas/receitas.html">Receitas</a>
+            <a href="/contabilidade/contabilidade.html">Contabilidade</a>
+            <a href="/compras/compras.html">Compras</a>
+            <a href="/ouvidoria/ouvidoria.html" aria-current="page">Ouvidoria</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="pagina-titulo">Ouvidoria</h1>
+        <section class="card" style="max-width:600px;margin:auto;">
+            <p>Preencha o formulário abaixo para enviar sua manifestação. O texto pode ser uma
+                <strong>denúncia</strong>, <strong>reclamação</strong>, <strong>sugestão</strong> ou
+                <strong>elogio</strong>. Seu relato será tratado com seriedade e confidencialidade.</p>
+            <form class="ouvidoria-form" method="POST" action="mailto:ticamila09@gmail.com" enctype="text/plain">
+                <label for="nome">Nome (opcional):</label>
+                <input type="text" id="nome" name="Nome" maxlength="100" placeholder="Seu nome">
+                <label for="mensagem">Mensagem <span style="color:#d00">*</span></label>
+                <textarea id="mensagem" name="Mensagem" rows="6" required
+                    placeholder="Descreva sua denúncia, reclamação, sugestão ou elogio..."></textarea>
+                <div style="margin:18px 0;">
+                    <div class="g-recaptcha" data-sitekey="SUA_CHAVE_SITE_RECAPTCHA"></div>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="/assets/img/logo branca.png" alt="AISI / HCI" class="h-16" />
+            <div class="footer-title">PORTAL INSTITUCIONAL E DE TRANSPARÊNCIA</div>
+        </div>
+        <div class="inner">
+            <div class="footer-end">Rua Cândida Gonçalves Bustamante, 17 <br> Morro Chic | Itajubá – MG | CEP 37500-100
+            </div>
+            <div class="footer-dados">CNPJ: 21.040.696/0001-50 - Isento de Inscrição Estadual <br> <i
+                    class="bi bi-telephone-inbound-fill"></i> (35) 3629-7602</div>
+        </div>
+    </footer>
+</body>
+
+</html>

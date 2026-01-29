@@ -1,0 +1,50 @@
+/* Ouvidoria - estilos seguindo o padrão do portal */
+.ouvidoria-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+.ouvidoria-form label {
+  font-weight: 500;
+  color: var(--muted, #4b5563);
+  margin-bottom: 0.2rem;
+}
+.ouvidoria-form input[type="text"],
+.ouvidoria-form textarea {
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 0.7rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+  color: var(--text, #111827);
+  transition: border 0.2s;
+}
+.ouvidoria-form input[type="text"]:focus,
+.ouvidoria-form textarea:focus {
+  border-color: #0f766e;
+  outline: none;
+}
+.ouvidoria-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.ouvidoria-form .g-recaptcha {
+  margin: 0 auto;
+}
+.ouvidoria-form .btn {
+  background: #25711b;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-end;
+}
+.ouvidoria-form .btn:hover {
+  background: #12460b;
+}
