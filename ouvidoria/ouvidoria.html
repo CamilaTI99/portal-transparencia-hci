@@ -11,7 +11,6 @@
     <link rel="icon" href="/assets/img/Logo-AISI.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/styles.css" />
     <link rel="stylesheet" href="ouvidoria.css" />
-    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     <script src="ouvidoria.js"></script>
 </head>
 
@@ -43,8 +42,8 @@
             </p>
 
 
-            <form class="ouvidoria-form" id="ouvidoria-form" method="POST" action="https://api.web3forms.com/submit">
-                  <input type="hidden" name="access_key" value="ba9766af-5f63-4f0f-bfe3-085b14c2315a">
+            <form class="ouvidoria-form" id="ouvidoria-form" method="POST"  action="https://formspree.io/f/xjgrpaea">
+                 
                 <label for="nome">Nome (opcional):</label>
                 <input type="text" id="nome" name="Nome" maxlength="100" placeholder="Seu nome">
 
@@ -52,9 +51,6 @@
                 <textarea id="mensagem" name="Mensagem" rows="6" required
                     placeholder="Descreva sua denúncia..."></textarea>
 
-                <div style="margin:18px 0;">
-                    <div class="h-captcha" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
-                </div>
 
                 <button type="submit" class="btn" id="btn-enviar">Enviar</button>
             </form>

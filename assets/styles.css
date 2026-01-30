@@ -69,7 +69,7 @@ a {
 }
 
 .nav {
-  max-width: var(--maxw);
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px 16px 20px;
   display: flex;
