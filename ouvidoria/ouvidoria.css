@@ -30,9 +30,7 @@
   resize: vertical;
   min-height: 120px;
 }
-.ouvidoria-form .g-recaptcha {
-  margin: 0 auto;
-}
+
 .ouvidoria-form .btn {
   background: #25711b;
   color: #fff;
